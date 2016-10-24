@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SchemaValidator_Tests/SchemaValidator_String_Tests.m"
+            timestampString = "497913777.003483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-testStringValidation"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SchemaValidator_String_Tests testStringValidation]"
+                  moduleName = "SchemaValidator_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gerard/Projects/SchemaValidator/Objective-C/SchemaValidator_Tests/SchemaValidator_String_Tests.m"
+                  timestampString = "497913785.105948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SchemaValidator_String_Tests testStringValidation]"
+                  moduleName = "SchemaValidator_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gerard/Projects/SchemaValidator/Objective-C/SchemaValidator_Tests/SchemaValidator_String_Tests.m"
+                  timestampString = "497913785.108907"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "654">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SchemaValidator_String_Tests testStringValidation]"
+                  moduleName = "SchemaValidator_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gerard/Projects/SchemaValidator/Objective-C/SchemaValidator_Tests/SchemaValidator_String_Tests.m"
+                  timestampString = "497913785.111668"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1187">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SchemaValidator_String_Tests testStringValidation]"
+                  moduleName = "SchemaValidator_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gerard/Projects/SchemaValidator/Objective-C/SchemaValidator_Tests/SchemaValidator_String_Tests.m"
+                  timestampString = "497913785.114159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1309">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

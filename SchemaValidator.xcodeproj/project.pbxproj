@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DDD1051D9EE84200B8A14F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1041D9EE84200B8A14F /* main.m */; };
+		D5DDD1121D9EE8BB00B8A14F /* SchemaValidator_String_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1111D9EE8BB00B8A14F /* SchemaValidator_String_Tests.m */; };
+		D5DDD1211D9EF1C600B8A14F /* SchemaValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1201D9EF1C600B8A14F /* SchemaValidationResult.m */; };
+		D5DDD1221D9EF1C600B8A14F /* SchemaValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1201D9EF1C600B8A14F /* SchemaValidationResult.m */; };
+		D5DDD1251D9EFBA300B8A14F /* JSONSchemaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1241D9EFBA300B8A14F /* JSONSchemaValidator.m */; };
+		D5DDD1261D9EFBA300B8A14F /* JSONSchemaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1241D9EFBA300B8A14F /* JSONSchemaValidator.m */; };
+		D5DDD1281D9F015700B8A14F /* SchemaValidator_Number_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDD1271D9F015700B8A14F /* SchemaValidator_Number_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5DDD0FF1D9EE84200B8A14F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5DDD1011D9EE84200B8A14F /* SchemaValidator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SchemaValidator; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DDD1041D9EE84200B8A14F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5DDD10F1D9EE8BB00B8A14F /* SchemaValidator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchemaValidator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DDD1111D9EE8BB00B8A14F /* SchemaValidator_String_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchemaValidator_String_Tests.m; sourceTree = "<group>"; };
+		D5DDD1131D9EE8BB00B8A14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DDD1171D9EE9C700B8A14F /* SchemaValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemaValidator.h; sourceTree = "<group>"; };
+		D5DDD11F1D9EF1C600B8A14F /* SchemaValidationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemaValidationResult.h; sourceTree = "<group>"; };
+		D5DDD1201D9EF1C600B8A14F /* SchemaValidationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemaValidationResult.m; sourceTree = "<group>"; };
+		D5DDD1231D9EFBA300B8A14F /* JSONSchemaValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSchemaValidator.h; sourceTree = "<group>"; };
+		D5DDD1241D9EFBA300B8A14F /* JSONSchemaValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSchemaValidator.m; sourceTree = "<group>"; };
+		D5DDD1271D9F015700B8A14F /* SchemaValidator_Number_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemaValidator_Number_Tests.m; sourceTree = "<group>"; };
+		D5DDD12B1D9F080D00B8A14F /* SchemaRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemaRenderable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DDD0FE1D9EE84200B8A14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DDD10C1D9EE8BB00B8A14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DDD0F81D9EE84200B8A14F = {
+			isa = PBXGroup;
+			children = (
+				D5DDD1031D9EE84200B8A14F /* SchemaValidator */,
+				D5DDD1101D9EE8BB00B8A14F /* SchemaValidator_Tests */,
+				D5DDD1021D9EE84200B8A14F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DDD1021D9EE84200B8A14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDD1011D9EE84200B8A14F /* SchemaValidator */,
+				D5DDD10F1D9EE8BB00B8A14F /* SchemaValidator_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DDD1031D9EE84200B8A14F /* SchemaValidator */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDD1171D9EE9C700B8A14F /* SchemaValidator.h */,
+				D5DDD11F1D9EF1C600B8A14F /* SchemaValidationResult.h */,
+				D5DDD1201D9EF1C600B8A14F /* SchemaValidationResult.m */,
+				D5DDD1231D9EFBA300B8A14F /* JSONSchemaValidator.h */,
+				D5DDD1241D9EFBA300B8A14F /* JSONSchemaValidator.m */,
+				D5DDD1291D9F06BC00B8A14F /* SchemaRenderer */,
+				D5DDD1041D9EE84200B8A14F /* main.m */,
+			);
+			path = SchemaValidator;
+			sourceTree = "<group>";
+		};
+		D5DDD1101D9EE8BB00B8A14F /* SchemaValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDD1111D9EE8BB00B8A14F /* SchemaValidator_String_Tests.m */,
+				D5DDD1271D9F015700B8A14F /* SchemaValidator_Number_Tests.m */,
+				D5DDD1131D9EE8BB00B8A14F /* Info.plist */,
+			);
+			path = SchemaValidator_Tests;
+			sourceTree = "<group>";
+		};
+		D5DDD1291D9F06BC00B8A14F /* SchemaRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDD12B1D9F080D00B8A14F /* SchemaRenderable.h */,
+			);
+			name = SchemaRenderer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DDD1001D9EE84200B8A14F /* SchemaValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DDD1081D9EE84200B8A14F /* Build configuration list for PBXNativeTarget "SchemaValidator" */;
+			buildPhases = (
+				D5DDD0FD1D9EE84200B8A14F /* Sources */,
+				D5DDD0FE1D9EE84200B8A14F /* Frameworks */,
+				D5DDD0FF1D9EE84200B8A14F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchemaValidator;
+			productName = SchemaValidator;
+			productReference = D5DDD1011D9EE84200B8A14F /* SchemaValidator */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5DDD10E1D9EE8BB00B8A14F /* SchemaValidator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DDD1141D9EE8BB00B8A14F /* Build configuration list for PBXNativeTarget "SchemaValidator_Tests" */;
+			buildPhases = (
+				D5DDD10B1D9EE8BB00B8A14F /* Sources */,
+				D5DDD10C1D9EE8BB00B8A14F /* Frameworks */,
+				D5DDD10D1D9EE8BB00B8A14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchemaValidator_Tests;
+			productName = SchemaValidator_Tests;
+			productReference = D5DDD10F1D9EE8BB00B8A14F /* SchemaValidator_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DDD0F91D9EE84200B8A14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gerard de Jong";
+				TargetAttributes = {
+					D5DDD1001D9EE84200B8A14F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D5DDD10E1D9EE8BB00B8A14F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5DDD0FC1D9EE84200B8A14F /* Build configuration list for PBXProject "SchemaValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5DDD0F81D9EE84200B8A14F;
+			productRefGroup = D5DDD1021D9EE84200B8A14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DDD1001D9EE84200B8A14F /* SchemaValidator */,
+				D5DDD10E1D9EE8BB00B8A14F /* SchemaValidator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DDD10D1D9EE8BB00B8A14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DDD0FD1D9EE84200B8A14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DDD1211D9EF1C600B8A14F /* SchemaValidationResult.m in Sources */,
+				D5DDD1251D9EFBA300B8A14F /* JSONSchemaValidator.m in Sources */,
+				D5DDD1051D9EE84200B8A14F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DDD10B1D9EE8BB00B8A14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DDD1221D9EF1C600B8A14F /* SchemaValidationResult.m in Sources */,
+				D5DDD1281D9F015700B8A14F /* SchemaValidator_Number_Tests.m in Sources */,
+				D5DDD1261D9EFBA300B8A14F /* JSONSchemaValidator.m in Sources */,
+				D5DDD1121D9EE8BB00B8A14F /* SchemaValidator_String_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5DDD1061D9EE84200B8A14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5DDD1071D9EE84200B8A14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5DDD1091D9EE84200B8A14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5DDD10A1D9EE84200B8A14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5DDD1151D9EE8BB00B8A14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SchemaValidator_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "za.net.dejong.SchemaValidator-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5DDD1161D9EE8BB00B8A14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SchemaValidator_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "za.net.dejong.SchemaValidator-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DDD0FC1D9EE84200B8A14F /* Build configuration list for PBXProject "SchemaValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DDD1061D9EE84200B8A14F /* Debug */,
+				D5DDD1071D9EE84200B8A14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DDD1081D9EE84200B8A14F /* Build configuration list for PBXNativeTarget "SchemaValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DDD1091D9EE84200B8A14F /* Debug */,
+				D5DDD10A1D9EE84200B8A14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DDD1141D9EE8BB00B8A14F /* Build configuration list for PBXNativeTarget "SchemaValidator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DDD1151D9EE8BB00B8A14F /* Debug */,
+				D5DDD1161D9EE8BB00B8A14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DDD0F91D9EE84200B8A14F /* Project object */;
+}
